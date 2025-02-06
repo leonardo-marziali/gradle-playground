@@ -1,0 +1,12 @@
+* text eol=lf
+
+*.java          text diff=java
+*.kt            text diff=kotlin
+*.gradle        text diff=java
+*.gradle.kts    text diff=kotlin
+
+*.class         binary
+*.jar           binary
+
+gradlew         text eol=lf
+gradlew.bat           text eol=crlf
