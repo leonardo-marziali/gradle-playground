@@ -13,3 +13,4 @@ Each branch in this repository focuses on a specific Gradle feature or use case.
 
 - Java: 21
 - Gradle wrapper: 8.12.1
+- Gradle with Kotlin DSL
