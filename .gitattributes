@@ -1,4 +1,4 @@
-* text eol=lf
+*               text eol=lf
 
 *.java          text diff=java
 *.kt            text diff=kotlin
@@ -9,4 +9,4 @@
 *.jar           binary
 
 gradlew         text eol=lf
-gradlew.bat           text eol=crlf
+gradlew.bat     text eol=crlf
