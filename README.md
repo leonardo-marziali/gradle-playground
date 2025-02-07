@@ -313,4 +313,4 @@ this [article](https://proandroiddev.com/stop-using-gradle-buildsrc-use-composit
 
 Take a look at
 this [example](https://github.com/leonardo-marziali/gradle-playground/tree/centralizing-dependencies-in-composite-build-convention-plugins-with-version-catalog)
-that shows how to convert this project to the composite build version
+that shows how to convert this project to the composite build version.
