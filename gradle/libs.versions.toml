@@ -1,0 +1,14 @@
+[versions]
+spring-boot = "3.4.2"
+spring-dependency-management = "1.1.7"
+mapstruct = "1.6.3"
+
+[libraries]
+# MapStruct is a code generator that simplifies the implementation of mappings between Java bean types
+mapstruct = { module = "org.mapstruct:mapstruct", version.ref = "mapstruct" }
+mapstruct-processor = { module = "org.mapstruct:mapstruct-processor", version.ref = "mapstruct" }
+
+[plugins]
+spring-boot = { id = "org.springframework.boot", version.ref = "spring-boot" }
+# The Spring Dependency Management plugin provides Maven BOM management for Gradle and helps us to inherit library versions that are compatible with our chosen Spring Boot version
+spring-dependency-management = { id = "io.spring.dependency-management", version.ref = "spring-dependency-management" }
